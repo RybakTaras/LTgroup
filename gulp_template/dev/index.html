@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE = edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <title>Главная страница
     </title>
@@ -13,16 +14,29 @@
       <canvas class="header-bg" id="header-canvas"></canvas>
       <div class="container">
         <div class="header-inner">
-          <div class="header-logo"><a href="#">
-              <h1 class="header-logo__text"><span>LT</span><span>group</span></h1></a></div>
-          <nav class="header-nav">
-            <ul class="header-nav__list">
-              <li class="header-nav__item"><a href="#">контакти</a></li>
-              <li class="header-nav__item"><a href="#">сотрудники</a></li>
-              <li class="header-nav__item"><a href="#">портфолио</a></li>
-              <li class="header-nav__item"><a href="#">оставить заявку</a></li>
-            </ul>
-          </nav>
+          <div class="header-top">
+            <div class="header-logo"><a href="#">
+                <h1 class="header-logo__text"><span>LT</span><span>group</span></h1></a></div>
+            <nav class="header-nav">
+              <ul class="header-nav__list">
+                <li class="header-nav__item"><a href="#">контакти</a></li>
+                <li class="header-nav__item"><a href="#">сотрудники</a></li>
+                <li class="header-nav__item"><a href="#">портфолио</a></li>
+                <li class="header-nav__item"><a href="#">оставить заявку</a></li>
+              </ul>
+            </nav>
+            <button class="header-nav__btn">
+              <svg class="header-nav__svg" viewBox="280 175 400 300">
+                <path class="top__bar" d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200"></path>
+                <path class="middle__bar" d="M300,320 L540,320"></path>
+                <path class="bottom__bar" d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" transform="translate(480, 320) scale(1, -1) translate(-480, -318)"></path>
+              </svg>
+            </button>
+          </div>
+          <div class="header-content">
+            <h1 class="header-content__title"><span>GRANDVINCENT</span> MARION </h1>
+            <h2 class="header-content__text">Creative Integrateur Web & Developpeur</h2>
+          </div>
         </div>
       </div>
     </header>
