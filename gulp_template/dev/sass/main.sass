@@ -1,0 +1,34 @@
+@import 'fonts.sass'
+@import 'vars.sass'
+@import 'libs.sass'
+// @import 'pngSprite.sass'
+@import 'mixins.sass'
+
+body
+  position: relative
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  flex-wrap: nowrap
+  height: 100%
+  text-size-adjust: none
+  -webkit-font-smoothing: antialiased
+  font-family: Futura, sans-serif
+  font-size: 16px
+  color: $mainColor
+
+main
+  flex: 1 0 auto
+  width: 100%
+  background: rgb(255, 255, 255)
+
+// Общие стили
+@import 'common.sass'
+// Стили шапки
+@import 'modules/header.sass'
+// Стили главной страницы
+@import 'pages/index.sass'
+// Стили футера
+@import 'modules/footer.sass'
+// Стили медиазапросов
+@import 'media.sass'
